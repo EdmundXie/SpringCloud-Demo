@@ -22,4 +22,4 @@ spring:
           predicates:
             - Path=/order/**
       default-filters:
-        - AddRequestHeader=Truth,Itcast is freaking awesome!
+        - AddRequestHeader=Truth,Itcast is awesome!

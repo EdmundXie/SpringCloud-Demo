@@ -6,10 +6,10 @@ spring:
     username: root
     password: xjh990403
     driver-class-name: com.mysql.jdbc.Driver
-  shardingsphere:
-    sharding:
-      default-database-strategy:
-      tables:
+#  shardingsphere:
+#    sharding:
+#      default-database-strategy:
+#      tables:
 #      discovery:
 #        cluster-name: HZ
 mybatis:

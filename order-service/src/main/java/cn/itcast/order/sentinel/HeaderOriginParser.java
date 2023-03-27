@@ -19,7 +19,7 @@ public class HeaderOriginParser implements RequestOriginParser {
     @Override
     public String parseOrigin(HttpServletRequest httpServletRequest) {
         //1.获取请求头
-        String header = httpServletRequest.getHeader();
+        String header = httpServletRequest.getHeader("origin");
         if(StringUtils.isEmpty(header)){
             header = "blank";
         }
